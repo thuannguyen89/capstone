@@ -1,6 +1,7 @@
 /* Import All CSS */
 @import url(./reset.css);
 @import url(./header.css);
+@import url(./capstone_carousel.css);
 @import url(./about_us.css);
 @import url(./features.css);
 @import url(./services.css);

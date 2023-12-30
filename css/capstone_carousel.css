@@ -1,0 +1,98 @@
+/* Capstone Carousel */
+.capstoneCarousel ol.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 0.9;
+    line-height: 10px;
+    margin: 0px 10px;
+    /* transition: all 0.4s ease 0s; */
+}
+
+.capstoneCarousel ol.carousel-indicators li:hover,
+.capstoneCarousel ol.carousel-indicators li.active {
+    width: 35px;
+    height: 10px;
+    background-color: #189A46;
+    border-radius: 14px;
+}
+
+.capstone-carousel-item {
+    background: url(../img/banner3.jpg) no-repeat center;
+    background-size: cover;
+    min-height: calc(100vh - 0px);
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 0;
+}
+
+.capstone-carousel-item1 {
+    background: url(../img/banner1.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.capstone-carousel-item2 {
+    background: url(../img/banner2.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.capstone-carousel-item:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background-color: #0c0c0c;
+    opacity: .6;
+}
+
+.capstone-carousel-caption {
+    max-width: 700px;
+}
+
+.capstone-carousel-caption h5 {
+    font-size: 66px;
+    line-height: 76px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.capstone-carousel-caption p {
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 30px;
+    opacity: 0.9;
+}
+
+.capstone-carousel-caption .btn {
+    padding: 12px 35px;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: all 0.5s ease-in;
+    border-radius: 10px;
+}
+
+.capstone-carousel-caption .btn-white {
+    background-color: #fff;
+    color: #189A46;
+}
+
+.capstone-carousel-caption .btn-border {
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 35px;
+}
+
+.capstone-carousel-caption .btn-border:hover {
+    color: #189A46;
+    background: #fff;
+}

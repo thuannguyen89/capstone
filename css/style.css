@@ -1,31 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html, body {
-    font-family: 'Jost', sans-serif;
-}
-
-/* 1. Header */
-
-/* Reponsive for Header */
-
-/* 2. About Us */
-
-/* 3. Features */
-
-/* 4. Services */
-
-/* 5. Number */
-
-/* 6. Pricing */
-
-/* 7. Video Popup */
-
-/* 8. Clients */
-
-/* 9. Subscribe */
-
-/* 10. Footer */
+/* Import All CSS */
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./about_us.css);
+@import url(./features.css);
+@import url(./services.css);
+@import url(./number.css);
+@import url(./pricing.css);
+@import url(./video_popup.css);
+@import url(./clients.css);
+@import url(./subscribe.css);
+@import url(./footer.css);

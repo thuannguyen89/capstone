@@ -1,2 +1,3 @@
 # Init Git project Capstone
-# init branch AboutUs 
+# init branch AboutUs
+# Test conflict AboutUs

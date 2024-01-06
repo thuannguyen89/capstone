@@ -1,1 +1,107 @@
 /* 6. Pricing */
+.pricing{
+    background-color: #936be80d;
+}
+.pricing__title h6{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #f53626;
+}
+.pricing__title h3{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}
+.pricing__bottom ul{
+    list-style: none;
+}
+.pricing__bg{
+    background-color: white;
+    border-radius: 6px;
+    padding: 0;
+}
+.pricing__top h6{
+    font-size: 25px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.pricing__top h4{
+    font-size: 40px;
+    line-height: 45px;
+    margin: 15px 0 20px;
+    color:#189a46 ;
+    font-weight: 600;
+}
+.dolar{
+    font-size: 25px;
+    vertical-align: text-top;
+}
+.month{
+    font-size: 16px;
+    line-height: 25px;
+    color: #999;
+    font-weight: 400;
+}
+.pricing__bottom li{
+    color: #696969;
+    font-size: 18px;
+    line-height: 28px;
+    padding-top: 6px;
+    margin-bottom: 5px;
+}
+.pricing__bottom{
+    padding-top: 1em;
+}
+.pricing__btn{
+    margin-top: 2em;
+    align-self: center;
+}
+.pricing__btn a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px 40px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    background-color: #189a46;
+    border: 1px solid #189a46;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.pricing__btn a:hover{
+    background-color:#116E32 ;
+    border-color: #116E32;
+}
+.pricing__zindex{
+    z-index: 1;
+    box-shadow: 0 10px 30px 0 rgba(17, 17, 17, 0.09);
+}
+.pricing__zindex .pricing__save{
+    padding: 3em 2.5em 0.5em;
+    background: #189a46;
+    color: white;
+}
+.pricing__zindex .pricing__save h4{
+    color: white;
+}
+.pricing__zindex .pricing__save .month{
+    color: white;
+}
+.pricing__save h5{
+    font-size: 15px;
+    line-height: 20px;
+    background: white;
+    color: #189a46;
+    padding: 8px 20px;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.pricing__bottom__save{
+    padding: 2em 2.5em 3.5em;
+}

@@ -1,1 +1,48 @@
 /* 10. Footer */
+footer{
+    background: black;
+}
+
+/* TOP */
+.footer__item h6{
+    color: white;
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+.footer__item ul{
+    list-style: none;
+}
+.footer__item li{
+    color: #696969;
+    margin-bottom: 5px;
+    
+}
+.footer__item li a{
+    color: #696969;
+    font-size: 16px;
+    line-height: 28px;
+    transition: all 0.5s;
+}
+.footer__item li a:hover{
+    color: white;
+}
+.footer__icon li{
+    display: inline;
+    margin-right: 15px;
+}
+
+/* BOTTOM */
+.footer__bottom{
+    color: #111;
+    border-top: 2px solid rgba(103, 99, 99, 0.14);
+}
+.footer__text p{
+    font-size: 16px;
+    color: #696969;
+    margin: 0;
+}
+.footer__text p a{
+    color: #f53626;
+}

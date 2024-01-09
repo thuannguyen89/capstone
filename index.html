@@ -24,6 +24,9 @@
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
+    <!-- OwlCarousel CSS -->
+    <link rel="stylesheet" href="./css/owl.carousel.min.css">
+
     <!-- Main CSS -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -211,8 +214,131 @@
     <section class="videoPopup"></section>
 
     <!-- 8. Clients -->
-    <section class="clients"></section>
-
+    <section class="clients">
+        <div class="container">
+            <div class="clients__title text-center mx-auto">
+                <h6>Testimonials</h6>
+                <h3 class="mb-md-5 mb-4">Happy Clients &amp; Feedbacks</h3>
+            </div>
+            <div class="clients__content">
+                <div class="owl-carousel owl-theme owl-loaded owl-drag">
+                    <div class="owl-stage-outer">
+                        <div class="owl-stage">
+                            <div class="owl-item">
+                                <div class="clients__item">
+                                    <blockquote>
+                                        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                            Dolores molestias adipisci dolor sit amet!.</q>
+                                    </blockquote>
+                                    <div class="clients__des">
+                                        <div class="clients__img">
+                                            <img src="./img/f1.jpg" alt="client image" class="img-fluid">
+                                        </div>
+                                        <div class="clients__info">
+                                            <h3>John wilson</h3>
+                                            <p>Example City</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="clients__item">
+                                    <blockquote>
+                                        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                            Dolores molestias adipisci dolor sit amet!.</q>
+                                    </blockquote>
+                                    <div class="clients__des">
+                                        <div class="clients__img">
+                                            <img src="./img/f2.jpg" alt="client image" class="img-fluid">
+                                        </div>
+                                        <div class="clients__info">
+                                            <h3>Julia sakura</h3>
+                                            <p class="indentity">Example City</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="clients__item">
+                                    <blockquote>
+                                        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                            Dolores molestias adipisci dolor sit amet!.</q>
+                                    </blockquote>
+                                    <div class="clients__des">
+                                        <div class="clients__img">
+                                            <img src="./img/f3.jpg" alt="client image" class="img-fluid">
+                                        </div>
+                                        <div class="clients__info">
+                                            <h3>Roy Linderson</h3>
+                                            <p class="indentity">Example City</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="clients__item">
+                                    <blockquote>
+                                        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                            Dolores molestias adipisci dolor sit amet!.</q>
+                                    </blockquote>
+                                    <div class="clients__des">
+                                        <div class="clients__img">
+                                            <img src="./img/f4.jpg" alt="client image" class="img-fluid">
+                                        </div>
+                                        <div class="clients__info">
+                                            <h3>Mike Thyson</h3>
+                                            <p>Example City</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="clients__item">
+                                    <blockquote>
+                                        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                            Dolores molestias adipisci dolor sit amet!.</q>
+                                    </blockquote>
+                                    <div class="clients__des">
+                                        <div class="clients__img">
+                                            <img src="./img/f1.jpg" alt="client image" class="img-fluid">
+                                        </div>
+                                        <div class="clients__info">
+                                            <h3>John wilson</h3>
+                                            <p class="indentity">Example City</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="clients__item">
+                                    <blockquote>
+                                        <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit beatae laudantium
+                                            voluptate rem ullam dolore nisi voluptatibus esse quasi, doloribus tempora.
+                                            Dolores molestias adipisci dolor sit amet!.</q>
+                                    </blockquote>
+                                    <div class="clients__des">
+                                        <div class="clients__img">
+                                            <img src="./img/f2.jpg" alt="client image" class="img-fluid">
+                                        </div>
+                                        <div class="clients__info">
+                                            <h3>Julia sakura</h3>
+                                            <p class="indentity">Example City</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <!-- 9. Subscribe -->
     <section class="subscribe"></section>
 
@@ -238,10 +364,31 @@
     <!-- Countup Js -->
     <script src="./js/jquery.countup.min.js"></script>
 
+    <!-- Carousel Js -->
+    <script src="./js/owl.carousel.min.js"></script>
+
     <!-- Customize Js -->
     <script>
         // For Counter
         $('.counter').countUp();
+
+        // For Clients Carousel
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 30,
+            dots: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 1
+                },
+                992: {
+                    items: 2
+                }
+            }
+        })
     </script>
 </body>
 

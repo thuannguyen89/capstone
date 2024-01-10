@@ -1,1 +1,38 @@
 /* 2. About Us */
+.aboutus__title{
+    text-align: center;
+}
+.aboutus__content{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.aboutus__title h6{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: #f53626;
+}
+.aboutus__title h3{
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+.aboutus__title p{
+    font-size: 1.2em;
+    line-height: 28px;
+    color: #696969;
+}
+.aboutus__title a{
+    font-size: 17px;
+    text-decoration: none;
+    border-bottom: 2px solid #189a46;
+    color: black;
+    font-weight: 600;
+    margin-top: 20px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+.aboutus__title a:hover{
+    color: #189a46;
+}

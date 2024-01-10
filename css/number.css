@@ -1,1 +1,29 @@
 /* 5. Number */
+
+.number {
+    background-color: #189a46;
+    padding: 3rem 0;
+}
+
+.number__item {
+    text-align: center;
+}
+
+.number__item p {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.number__item h4 {
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 10px;
+    opacity: 0.8;
+    font-weight: 400;
+}

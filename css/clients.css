@@ -1,1 +1,130 @@
 /* 8. Clients */
+.clients {
+    padding: 3rem 0;
+    background: rgb(147 107 232 / 5%);
+}
+
+.clients__title h6 {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 2em;
+    letter-spacing: 1px;
+    color: #f53626;
+}
+
+.clients__title h3 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    text-transform: capitalize;
+}
+
+.clients__item {
+    display: block;
+    margin: 0;
+    padding: 40px 30px;
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -o-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border: none;
+    box-shadow: 0 25px 98px 0 rgba(19, 19, 19, 0.03);
+}
+
+.clients__item .clients__des {
+    display: flex;
+    text-align: center;
+}
+
+.clients__item blockquote {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    position: relative;
+    margin-bottom: 1.5em;
+}
+
+.clients__item blockquote q {
+    font-size: 1.2em;
+    line-height: 28px;
+    color: #696969;
+}
+
+.clients__item blockquote q::before {
+    font-size: 50px;
+    color: #189A46;
+    line-height: .8;
+    padding-top: 8px;
+    font-weight: 600;
+    display: inline-block;
+    font-family: "Merriweather", serif;
+}
+
+.clients__item .clients__img {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    overflow: hidden;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.clients__item .clients__img img {
+    width: 100%;
+    min-height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.clients__item .clients__info {
+    margin: 0;
+    margin-left: 20px;
+    text-align: left;
+}
+
+.clients__item .clients__info h3 {
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.clients__item .clients__info p {
+    color: #777;
+    font-size: 17px;
+    font-style: normal;
+    margin-bottom: 0;
+    text-align: left;
+    opacity: 0.8;
+}
+
+.clients__content .owl-dots {
+    position: inherit;
+    left: 0px;
+    right: 0px;
+    bottom: 30px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.clients__content .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 8px;
+    background: #d8d8d8;
+    display: block;
+    transition: opacity .2s ease;
+    border-radius: 25px;
+    position: relative;
+}
+
+.clients__content .owl-dots .owl-dot.active span,
+.clients__content .owl-dots .owl-dot:hover span {
+    background: #189A46;
+    width: 30px;
+    height: 10px;
+}

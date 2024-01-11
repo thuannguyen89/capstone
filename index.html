@@ -152,7 +152,9 @@
                 <div class="aboutus__title">
                     <h6>ABOUT US</h6>
                     <h3>We Love Your Pets Like They Are Our Own</h3>
-                    <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio voluptatem tenetur consequatur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis.</p>
+                    <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur hic odio
+                        voluptatem tenetur consequatur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
+                        posuere cubilia Curae; Nulla mollis dapibus nunc, ut rhoncus turpis sodales quis.</p>
                     <a href="#">Read More</a>
                 </div>
             </div>
@@ -222,7 +224,34 @@
     <section class="pricing"></section>
 
     <!-- 7. Video Popup -->
-    <section class="videoPopup"></section>
+    <section class="videoPopup">
+        <div class="videoPopup__content text-center">
+            <div class="container">
+                <div class="videoPopup_item">
+                    <div class="item__text">
+                        <h6>BETTER PET NUTRITION.</h6>
+                        <h3>The Finest Fresh Food And All Your Pet Needs.</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.Lorem ipsum dolor sit amet elit
+                            consec tetur adipisi elit. Lorem ipsum dolor sit amet elit consec tetur adipisi elit. Iure
+                            voluptatibus explicabo officia.
+                        </p>
+                    </div>
+                    <div class="item__video mt-5">
+                        <div class="position-relative">
+                            <img src="./img/banner2.jpg" alt="videoPopup">
+                            <a href="#small-dialog" class="position-absolute popup-with-zoom-anim play-view">
+                                <span class="item__icon"><i class="fa fa-play"></i></span>
+                            </a>
+                            <div id="small-dialog" class="zoom-anim-dialog mfp-hide">
+                                <iframe src="https://player.vimeo.com/video/101587706" frameborder="0"
+                                    allow="autoplay; fullscreen" allowfullscreen=""></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- 8. Clients -->
     <section class="clients">
@@ -371,7 +400,8 @@
                         </div>
                         <form action="" method="post" class="pt-2 mt-5">
                             <div class="subscribe__form d-md-flex flex-wrap">
-                                <input class="form-control" type="email" placeholder="Enter your email..." name="Email" required="">
+                                <input class="form-control" type="email" placeholder="Enter your email..." name="Email"
+                                    required="">
                                 <button class="btn btn-style btn-primary" type="submit">Subscribe</button>
                             </div>
                         </form>
@@ -388,12 +418,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    </script>
+        </script>
 
     <!-- Bootstrap4 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
-    </script>
+        </script>
 
     <!-- Jquery Waypoint Js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
@@ -428,6 +458,43 @@
                 }
             }
         })
+    </script>
+
+    <!-- Jquery videoPopup -->
+    <script src="./js/jquery.magnific-popup.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.popup-with-zoom-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-zoom-in'
+            });
+            $('.popup-with-move-anim').magnificPopup({
+                type: 'inline',
+
+                fixedContentPos: false,
+                fixedBgPos: true,
+
+                overflowY: 'auto',
+
+                closeBtnInside: true,
+                preloader: false,
+
+                midClick: true,
+                removalDelay: 300,
+                mainClass: 'my-mfp-slide-bottom'
+            });
+        });
     </script>
 </body>
 

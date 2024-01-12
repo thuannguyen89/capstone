@@ -1,1 +1,117 @@
 /* 7. Video Popup */
+.videoPopup .videoPopup__content {
+    display: grid;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.videoPopup .videoPopup_item {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.item__text h6 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 2em;
+    color: #f53626;
+    letter-spacing: 1px;
+}
+
+.item__text h3 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+@media screen and (max-width: 1080px) {
+    .title {
+        font-size: 32px !important;
+        line-height: 40px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .title {
+        font-size: 35px !important;
+        line-height: 38px !important;
+    }
+}
+@media screen and (max-width: 375px) {
+    .title {
+        font-size: 27px !important;
+        line-height: 32px !important;
+    }
+}
+
+.item__text p {
+    font-size: 1.2em;
+    line-height: 28px;
+    color: #696969;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+.item__video img {
+    width: 100%;
+}
+
+.item__video a {
+    left: 0;
+    right: 0;
+    top: calc(50% - 40px);
+    text-decoration: none;
+    color: #189A46;
+}
+
+.item__icon {
+    background: white;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    border-radius: 50%;
+    display: inline-block;
+    transition: all 0.3s;
+    animation: ripple 1s linear infinite;
+}
+
+.item__icon:hover {
+    transform: scale(1.1);
+}
+
+.item__icon i {
+    line-height: 55px;
+}
+
+#small-dialog {
+    max-width: 750px;
+    margin: 40px auto;
+    position: relative;
+}
+
+#small-dialog iframe {
+    width: 100%;
+    height: 400px;
+    display: block;
+}
+
+.mfp-close-btn-in .mfp-close {
+    color: white;
+    top: -40px;
+    opacity: 1;
+}
+
+.my-mfp-zoom-in.mfp-ready.mfp-bg {
+    opacity: 0.95;
+}
+
+@keyframes ripple {
+    0% {
+        box-shadow:
+            0 0 0 0 rgba(15, 162, 66, 0.164), 0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25);
+    }
+
+    100% {
+        box-shadow: 0 0 0 10px rgba(15, 162, 67, 0.25), 0 0 0 20px rgba(15, 162, 67, 0.25), 0 0 0 40px rgba(50, 100, 245, 0);
+    }
+}

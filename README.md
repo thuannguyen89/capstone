@@ -2,3 +2,6 @@
 # init branch AboutUs
 # Test conflict AboutUs 
 # Test conflit in Readme
+
+# Link phan chia cong viec trong du an
+https://docs.google.com/spreadsheets/d/1jXlUe70oIGXhwszADdq925B8VOjHVTUd/edit#gid=1558720093

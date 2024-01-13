@@ -1,28 +1,28 @@
 /* 3. Features */
-.features{
+.features {
     background-color: #936be80d;
 }
-.features__bg{
+.features__bg {
     padding: 40px 30px;
     background-color: white;
     transition: all 0.5s;
 }
-.features__bg:hover{
+.features__bg:hover {
     background-color: #936be80d;
 }
-.icon{
+.icon {
     color: #189a46;
     font-size: 30px;
 }
-.features__bg p{
+.features__bg p {
     color: #696969;
     font-size: 1.2em;
     line-height: 28px;
 }
-.features__m{
+.features__m {
     margin-bottom: 30px;
 }
-.features__bg h4 a{
+.features__bg h4 a {
     font-size: 24px;
     font-weight: 600;
     margin: 25px 0 15px;
@@ -31,19 +31,19 @@
     display: block;
     transition: all 0.5s;
 }
-.features__bg h4 a:hover{
+.features__bg h4 a:hover {
     color: #189a46;
 }
-a.features__read{
+a.features__read {
     text-decoration: none;
     color: black;
     font-size: 17px;
-    border-bottom:2px solid #189a46 ;
+    border-bottom: 2px solid #189a46;
     font-weight: 600;
     display: inline-block;
     margin-top: 20px;
     transition: all 0.5s;
 }
-a.features__read:hover{
+a.features__read:hover {
     color: #189a46;
 }

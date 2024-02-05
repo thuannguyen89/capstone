@@ -15,12 +15,12 @@ footer{
     list-style: none;
 }
 .footer__item li{
-    color: #696969;
+    color: #afafaf;
     margin-bottom: 5px;
     
 }
 .footer__item li a{
-    color: #696969;
+    color: #afafaf;
     font-size: 16px;
     line-height: 28px;
     transition: all 0.5s;
@@ -40,7 +40,7 @@ footer{
 }
 .footer__text p{
     font-size: 16px;
-    color: #696969;
+    color: #afafaf;
     margin: 0;
 }
 .footer__text p a{

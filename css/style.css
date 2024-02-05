@@ -11,3 +11,6 @@
 @import url(./clients.css);
 @import url(./subscribe.css);
 @import url(./footer.css);
+
+/* Import Dark CSS */
+@import url(./dark.css);

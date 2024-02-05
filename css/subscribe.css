@@ -19,7 +19,7 @@
     padding: 0;
     font-size: 1.2em;
     line-height: 28px;
-    color: #696969;
+    color: #afafaf;
 }
 
 .subscribe__form {
@@ -28,7 +28,7 @@
 
 .subscribe__form input[type="email"] {
     font-size: 16px;
-    color: #696969;
+    color: #afafaf;
     border-radius: 10px;
     padding: 0px 20px;
     height: 60px;

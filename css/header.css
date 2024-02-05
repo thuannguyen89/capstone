@@ -8,6 +8,7 @@ header {
     align-items: center;
     box-shadow: 0 3px 9px rgba(0, 0, 0, 0.05);
 }
+
 .navbar .navbar-brand span {
     margin: 0;
     padding: 0;
@@ -19,18 +20,18 @@ header {
 
 a.nav-link:before,
 a.dropdown-item:before {
-  position: absolute;
-  content: '';
-  background: #189A46;
-  width: 0px;
-  height: 1px;
-  bottom: 13px;
-  transition: width .5s;
+    position: absolute;
+    content: '';
+    background: #189A46;
+    width: 0px;
+    height: 1px;
+    bottom: 13px;
+    transition: width .5s;
 }
 
 .navbar-nav .nav-link:hover:before,
 a.dropdown-item:hover:before {
-  width: 100%;
+    width: 100%;
 }
 
 .navbar-nav .nav-item {
@@ -128,24 +129,19 @@ a.btn-search:hover {
     background-color: #189A46;
 }
 
-a.btn-darklight {
+.btn-darklight {
     font-size: 1.5em;
-    line-height: 25px;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    border-radius: 45px;
     padding: 0 10px;
     text-align: center;
     color: #000c04;
     display: inline-block;
     border: none;
     transition: all 0.5s ease;
+    background: none;
 }
 
-a.btn-darklight:hover {
-    color: #fff;
-    background-color: #189A46;
+.btn-darklight i.fa-sun {
+    display: none;
 }
 
 .fixed-top {
@@ -154,5 +150,20 @@ a.btn-darklight:hover {
     right: 0;
     left: 0;
     z-index: 1030;
-  }
+}
+
 /* Reponsive for Header */
+@media only screen and (max-width:768px) {
+    .navbar-toggler i.fa-bars {
+        color: #fff;
+        background-color: #189A46;
+        padding: 5px;
+        display: inline-block;
+        border-radius: 5px;
+    }
+
+    .darklight {
+        position: absolute;
+        right: 60px;
+    }
+}

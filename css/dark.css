@@ -1,0 +1,67 @@
+/* Dark CSS */
+#myBody.dark header {
+    background-color: #000;
+}
+
+#myBody.dark .navbar-nav .nav-item .nav-link {
+    color : #fff;
+}
+
+#myBody.dark .navbar-nav .nav-item.active .nav-link,
+#myBody.dark .navbar-nav .nav-link:hover {
+    color: #189A46;
+}
+
+#myBody.dark .btn-darklight i.fa-sun {
+    display: inline-block;
+    color: #fff;
+}
+
+#myBody.dark .btn-darklight i.fa-moon {
+    display: none;
+}
+
+#myBody.dark .aboutUs,
+#myBody.dark .features,
+#myBody.dark .services,
+#myBody.dark .videoPopup,
+#myBody.dark .subscribe {
+    background-color: #000;
+}
+
+#myBody.dark .aboutus__title h3,
+#myBody.dark .aboutus__title a,
+#myBody.dark .services__right h3,
+#myBody.dark .features__bg h4 a,
+#myBody.dark a.features__read,
+#myBody.dark .services__right ul li,
+#myBody.dark .pricing__title h3,
+#myBody.dark .pricing__top h6,
+#myBody.dark .item__text h3,
+#myBody.dark .clients__title h3,
+#myBody.dark .clients__item .clients__info h3,
+#myBody.dark .subscribe__title h3 {
+    color: #fff
+}
+
+#myBody.dark .aboutus__title a:hover,
+#myBody.dark .features__bg h4 a:hover,
+#myBody.dark a.features__read:hover {
+    color: #189a46
+}
+
+#myBody.dark .features__bg,
+#myBody.dark .pricing__1 .pricing__item,
+#myBody.dark .pricing__bg,
+#myBody.dark .clients__item {
+    background-color: #151515;
+}
+
+#myBody.dark .number {
+    background-color: #189A46;
+}
+
+#myBody.dark .pricing,
+#myBody.dark .clients {
+    background-color: #222;
+}

@@ -34,7 +34,7 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body id="myBody">
     <!-- 1. Header -->
     <header class="fixed-top">
         <div class="container">
@@ -83,12 +83,13 @@
                             <i class="fa fa-search"></i>
                         </a>
                     </div>
+                </div>
 
-                    <div class="darklight">
-                        <a href="#" class="btn btn-darklight">
-                            <i class="fa-regular fa-moon"></i>
-                        </a>
-                    </div>
+                <div class="darklight">
+                    <button href="#" class="btn-darklight">
+                        <i class="fa-regular fa-moon"></i>
+                        <i class="fa-regular fa-sun"></i>
+                    </button>
                 </div>
             </nav>
         </div>
@@ -669,12 +670,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
         integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-        </script>
+    </script>
 
     <!-- Bootstrap4 JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
-        </script>
+    </script>
 
     <!-- Jquery Waypoint Js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
@@ -745,6 +746,15 @@
                 removalDelay: 300,
                 mainClass: 'my-mfp-slide-bottom'
             });
+        });
+
+        // Xu ly switch button
+        $(".btn-darklight i.fa-moon").click(function () {
+            $("#myBody").addClass("dark");
+        });
+
+        $(".btn-darklight i.fa-sun").click(function () {
+            $("#myBody").removeClass("dark");
         });
     </script>
 </body>
